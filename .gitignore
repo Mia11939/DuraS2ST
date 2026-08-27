@@ -1,0 +1,16 @@
+__pycache__/
+*.py[cod]
+.venv/
+.idea/
+.vscode/
+.DS_Store
+
+# Local models and generated outputs
+checkpoints/
+models/
+outputs/
+*.safetensors
+*.ckpt
+*.pt
+*.pth
+output.wav

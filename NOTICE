@@ -1,0 +1,7 @@
+DuraS2ST
+Copyright 2026 DuraS2ST authors
+
+The inference implementation is adapted from Step-Audio 2:
+https://github.com/stepfun-ai/Step-Audio2
+
+Step-Audio 2 is licensed under the Apache License, Version 2.0.

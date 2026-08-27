@@ -1,0 +1,8 @@
+huggingface_hub>=0.25.0,<2.0
+transformers==4.49.0
+torchaudio>=2.3.0
+librosa>=0.10.0
+onnxruntime>=1.18.0
+s3tokenizer
+diffusers
+hyperpyyaml
