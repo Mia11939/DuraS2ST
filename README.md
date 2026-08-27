@@ -14,8 +14,7 @@
 
 ## News
 
-- **[2026-08-21]** 🎉 **DuraS2ST** is accepted to the **EMNLP 2026 Main Conference**.
-- **[Coming Soon]** The paper, DuraS2ST checkpoint, and DuraSet-440K dataset will be released soon.
+- **[2026-08-21]** 🎉 **DuraS2ST** is accepted to the **EMNLP 2026 Main Conference** (**15.4% acceptance rate** for Main Conference papers).
 
 ## Introduction
 
