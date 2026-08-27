@@ -1,7 +1,7 @@
 <div align="center">
   <h1>DuraS2ST</h1>
   <p><b><i>Chain-of-Thought and Reinforcement Learning for Duration-Aligned Speech-to-Speech Translation</i></b></p>
-  <p>Official repository for DuraS2ST.</p>
+  <p>Official repository of the EMNLP 2026 Main Conference paper.</p>
   <p>
     <img src="https://img.shields.io/badge/Paper-Coming%20Soon-b31b1b.svg?logo=arxiv&logoColor=white" alt="Paper coming soon">
     <img src="https://img.shields.io/badge/Model-Coming%20Soon-FFD21E.svg?logo=huggingface&logoColor=black" alt="Model coming soon">
@@ -14,8 +14,8 @@
 
 ## News
 
-- **[2026-08-27]** We release the initial inference code and audio demo for **DuraS2ST**.
-- **[Coming Soon]** The paper, DuraS2ST checkpoint, and DuraSet-440K dataset will be released after acceptance.
+- **[2026-08-21]** 🎉 **DuraS2ST** is accepted to the **EMNLP 2026 Main Conference**.
+- **[Coming Soon]** The paper, DuraS2ST checkpoint, and DuraSet-440K dataset will be released soon.
 
 ## Introduction
 
