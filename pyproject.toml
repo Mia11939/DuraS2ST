@@ -1,0 +1,44 @@
+[project]
+name = "duras2st"
+version = "0.1.0"
+description = "English-Chinese speech translation with DuraS2ST"
+requires-python = ">=3.12,<3.13"
+dependencies = [
+    "torch==2.7.1",
+    "torchaudio==2.7.1",
+    "torchvision==0.22.1",
+    "vllm",
+    "transformers==4.57.6",
+    "huggingface-hub==0.36.2",
+    "s3tokenizer==0.3.0",
+    "onnxruntime==1.27.0",
+    "hyperpyyaml==1.2.3",
+    "librosa==0.11.0",
+    "soundfile==0.13.1",
+    "einops==0.8.1",
+    "scipy==1.16.1",
+]
+
+[tool.uv]
+package = false
+required-version = ">=0.11.27"
+environments = ["sys_platform == 'linux' and platform_machine == 'x86_64'"]
+build-constraint-dependencies = [
+    "setuptools==78.1.0",
+    "setuptools-scm==10.3.4",
+    "wheel==0.48.0",
+]
+
+[tool.uv.sources]
+vllm = { git = "https://github.com/stepfun-ai/vllm.git", rev = "9ecabf22f542a2dd2962527a7eb9359021b3cc9f" }
+torch = { index = "pytorch-cu128" }
+torchaudio = { index = "pytorch-cu128" }
+torchvision = { index = "pytorch-cu128" }
+
+[[tool.uv.index]]
+name = "pytorch-cu128"
+url = "https://download.pytorch.org/whl/cu128"
+explicit = true
+
+[tool.uv.extra-build-variables]
+vllm = { VLLM_PRECOMPILED_WHEEL_LOCATION = "https://wheels.vllm.ai/c905684cfeaee3b2be2c736eee473b2c6ae7f7bf/vllm-1.0.0.dev-cp38-abi3-manylinux1_x86_64.whl", SETUPTOOLS_SCM_PRETEND_VERSION = "0.10.1rc2.dev279+g9ecabf22f" }
